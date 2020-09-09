@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.container {
+  .todo {
+    position: absolute;
+
+    left: 50%;
+    transform: translateX(-50%);
+
+    .title {
+      text-align: center;
+      font-size: 50px;
+      padding-top: 50px;
+      .add {
+        margin: 20px 0;
+
+        .input {
+          width: 200px;
+          margin-right: 50px;
+        }
+      }
+    }
+
+    .task {
+      display: flex;
+      flex-direction: row;
+      margin: 10px;
+
+      .label {
+        width: 250px;
+      }
+    }
+  }
+}
